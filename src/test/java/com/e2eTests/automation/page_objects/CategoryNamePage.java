@@ -15,7 +15,7 @@ public class CategoryNamePage extends BasePage {
 	private static WebElement categoryName;
 
 	@FindBy(how = How.ID, using = "search-categories")
-	private static WebElement btnSearch;
+	private static WebElement butnSearch;
 
 	
 	public CategoryNamePage() {
@@ -28,6 +28,10 @@ public class CategoryNamePage extends BasePage {
 
 	public static WebElement getCategoryName() {
 		return categoryName;
+	}
+
+	public static WebElement getButnSearch() {
+		return butnSearch;
 	}
 	
 }

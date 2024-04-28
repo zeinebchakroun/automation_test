@@ -32,7 +32,7 @@ public class LoginPage extends BasePage {
 		return password;
 	}
 
-	public static WebElement getbtnLogin() {
+	public static WebElement getBtnLogin() {
 		return btnLogin;
 	}
 }
